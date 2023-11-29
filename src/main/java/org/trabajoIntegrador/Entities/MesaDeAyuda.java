@@ -7,7 +7,6 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import java.util.ArrayList;
 import java.util.List;
-import org.trabajoIntegrador.Entities.Incidente;
 
 @Entity
 @Table(name = "mesa_de_ayuda")
@@ -28,7 +27,7 @@ public class MesaDeAyuda {
     private List<Operador> operadores = new ArrayList<>();
 
     @OneToMany(mappedBy = "mesaDeAyuda", cascade = CascadeType.ALL)
-    private List<Incidente> incidentes = new ArrayList<>();
+    private List<Incidentes> incidentes = new ArrayList<>();
 
     @ManyToMany(mappedBy = "mesasDeAyuda")
     private List<Tecnico> tecnicos = new ArrayList<>();

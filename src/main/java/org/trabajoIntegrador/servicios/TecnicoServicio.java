@@ -1,9 +1,8 @@
 package org.trabajoIntegrador.servicios;
 
-import org.example.Entities.Tecnico;
-import org.example.repositorios.TecnicoRepositorio;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
+import org.trabajoIntegrador.Entities.Tecnico;
+import org.trabajoIntegrador.repositorios.TecnicoRepositorio;
+
 
 import java.time.LocalDate;
 import java.util.List;

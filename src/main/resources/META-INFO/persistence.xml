@@ -9,7 +9,7 @@
         <exclude-unlisted-classes>false</exclude-unlisted-classes>
         <properties>
             <property name="jakarta.persistence.jdbc.url"
-                      value="jdbc:mysql://localhost:3307/miBaseDatos?zeroDateTimeBehavior=convertToNull&amp;serverTimezone=UTC"/>
+                      value="jdbc:mysql://localhost:3307/mibasedatos?zeroDateTimeBehavior=convertToNull&amp;serverTimezone=UTC"/>
             <property name="jakarta.persistence.jdbc.user" value="root"/>
             <property name="jakarta.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
             <property name="jakarta.persistence.jdbc.password" value="admin"/>
